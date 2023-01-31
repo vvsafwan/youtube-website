@@ -1,0 +1,150 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.header{
+    display: flex;
+}
+.header-menu{
+    width: 50px;
+    padding-left: 20px;
+    padding-top: 12px;
+}
+.header-menu-button{
+    border: 1px solid white;
+    background-color: #fff;
+    border-radius: 50px;
+    width: 30px;
+    padding-top: 3px;
+}
+.header-menu-button:hover{
+    background-color: rgba(0, 0, 0, .2);
+    cursor: pointer;
+}
+.header-img{
+    margin-left: 20px;
+}
+.header-input{
+    margin-left: 450px;
+    padding-top: 10px;
+    display: flex;
+}
+.header-input-box{
+    border-radius: 20px 0px 0px 20px;
+    width: 600px;
+    height: 45px;
+    padding-left: 20px;
+    border: 2px solid rgb(200, 194, 194);
+    font-size: 16px;
+}
+.header-input-box:hover{
+    background-color: rgba(0, 0, 0, .1);
+    cursor: pointer;
+}
+.header-input-btn{
+    width: 70px;
+    height: 45px;
+    border: 2px solid rgb(226, 225, 225);
+    margin-left: 0px;
+    border-radius: 0 20px 20px 0;
+}
+.header-input-btn:hover{
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, .2);
+}
+.header-input-btn2{
+    border: 1px solid white;
+    background-color: #fff;
+    border-radius: 50px;
+    width: 30px;
+    padding-top: 3px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.header-input-btn2:hover{
+    background-color: rgba(0, 0, 0, .2);
+    cursor: pointer;
+}
+.header-icons{
+    margin-left: 400px;
+    justify-content: space-around;
+    margin-top: 10px;
+    display: flex;
+}
+.header-icons-btn{
+    border: 1px solid white;
+    background-color: #fff;
+    border-radius: 50px;
+    width: 40px;
+    padding-top: 3px;
+}
+.header-icons-btn:hover{
+    background-color: rgba(0, 0, 0, .2);
+    cursor: pointer;
+}
+.header-icons-btn2{
+    border: 1px solid white;
+    background-color: #fff;
+    border-radius: 50px;
+    width: 40px;
+    padding-top: 3px;
+    margin-left: 15px;
+}
+.header-icons-btn2:hover{
+    background-color: rgba(0, 0, 0, .2);
+    cursor: pointer;
+}
+.header-icons-btn3{
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
+    border: 1px solid #fff;
+    background-color: purple;
+    color: #fff;
+}
+.header-icon-m{
+    margin: 10px;
+    margin-left: 20px;
+}
+.icon{
+    width: 23px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.section1{
+    width: 250px;
+    height: 100vh;
+    overflow: auto;
+}
+.p1,.p2,.p3,.p4,.p5,.p6,.p7,.p8,.p9,.p10,.p11,.p12,.p13,.p14,.p15,.p16{
+    font-size: 17px;
+    color: rgb(47, 47, 47);
+    padding-bottom: 10px;
+}
+.p1:hover,.p2:hover,.p3:hover,.p4:hover,.p5:hover,.p6:hover,.p7:hover,.p8:hover,.p9:hover,.p10:hover,.p11:hover,.p12:hover,.p13:hover,.p14:hover,.p15:hover,.p16:hover{
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, .2);
+    border-radius: 150px;
+}
+.container2{
+    display: flex;
+}
+.section2{
+    display: grid;
+    grid-template-columns: repeat(4,380px);
+    height: 100vh;
+    overflow: auto;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+.section2-box{
+    margin-bottom: 50px;
+}
+.nikhil-img{
+    border-radius: 50px;
+}
+.txt-img{
+    display: flex;
+    margin-top: 15px;
+}
